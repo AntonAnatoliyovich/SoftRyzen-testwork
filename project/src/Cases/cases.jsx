@@ -2,7 +2,6 @@ import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
-
 import { Linee } from 'utils/line.styled';
 import {
     Arrow,

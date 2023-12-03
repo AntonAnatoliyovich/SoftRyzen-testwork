@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     @media screen and (min-width: 768px) {
         width: 708px;
     }
-    
+
     @media screen and (min-width: 1280px) {
         width: 1240px;
     }
@@ -110,7 +110,7 @@ export const MapIcon = styled(ReactSVG).attrs({
     width: 24px;
     height: 24px;
     cursor: pointer;
-    
+
     &:hover {
         stroke: var(--main-clr-green);
     }
@@ -124,7 +124,7 @@ export const FBIcon = styled(ReactSVG).attrs({
     width: 24px;
     height: 24px;
     cursor: pointer;
-    
+
     &:hover {
         stroke: var(--main-clr-green);
         fill: var(--main-clr-green);
@@ -138,7 +138,7 @@ export const InstaIcon = styled(ReactSVG).attrs({
     width: 24px;
     height: 24px;
     cursor: pointer;
-    
+
     &:hover {
         stroke: var(--main-clr-green);
     }
@@ -185,7 +185,7 @@ export const FormBox = styled.div`
         padding: 36px 24px;
     }
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1280px) {
         width: 596px;
         padding: 48px;
     }

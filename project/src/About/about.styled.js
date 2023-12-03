@@ -53,7 +53,7 @@ export const ValuesTitle = styled.h1`
         line-height: 36px;
         width: 272px;
     }
-
+    
     @media screen and (min-width: 1280px) {
         font-size: 48px;
         line-height: 48px;
@@ -94,7 +94,7 @@ export const ValuesText = styled.p`
         width: 342px; 
         margin-right: 0;
     }
-
+    
     @media screen and (min-width: 1280px){
         width: 459px; 
     }
@@ -139,7 +139,7 @@ export const ResponsibilityIcon = styled(ReactSVG).attrs({
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    
+
     @media screen and (min-width: 1280px) {
         transform: scale(1.5);
     }
@@ -200,11 +200,11 @@ export const GridTitleBox = styled.div`
     align-items: center;
     gap: 8px;
     margin-bottom: 33px;
-    
+
     @media screen and (min-width: 768px) {
         margin-bottom: 51px;
     }
-
+    
     @media screen and (min-width: 1280px) {
         height: 48px;
         margin-bottom: 94px;
@@ -275,6 +275,7 @@ export const GridImageMens = styled.img`
 
 export const GridImageMen = styled.img`
     display: none;
+
     @media screen and (min-width: 768px) {
         display: block;
         width: 346px;

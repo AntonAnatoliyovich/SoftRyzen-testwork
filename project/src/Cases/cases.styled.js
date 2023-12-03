@@ -197,7 +197,7 @@ export const SwiperItem = styled.div`
         width: 342px;
         height: 322px;
     }
-
+    
     @media screen and (min-width: 1280px) {
         width: 596px;
         height: 506px;
@@ -217,7 +217,7 @@ export const SwiperInfo = styled.div`
     flex-direction: column;
     justify-content: space-between;
     padding: 0 12px 0;
-    
+
     @media screen and (min-width: 1280px) {
         padding: 0 48px 0;
     }
@@ -290,7 +290,7 @@ export const SwiperInfoBox = styled.div`
 
     margin-top: 12px;
     margin-bottom: 12px;
-    
+
     @media screen and (min-width: 1280px) {
         margin-top: 24px;
     }
@@ -330,7 +330,7 @@ export const SwiperItemDate = styled.p`
     @media screen and (min-width: 768px) {
         letter-spacing: -0.56px;
     }
-
+    
     @media screen and (min-width: 1280px) {
         font-size: 16px;
         letter-spacing: -0.64px;

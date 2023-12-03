@@ -12,7 +12,7 @@ export const Container = styled.div`
     background-color: var(--main-bg-clr);
     position: sticky;
     top: 0;
-    z-index: 50;
+    z-index: 2;
 
     @media screen and (min-width: 768px) {
         height: 68px;
@@ -50,7 +50,6 @@ export const BtnIcon = styled.img`
 export const TouchText = styled.p`
     color: var(--main-clr-dark-green);
     transition: color 0.3s ease;
-
     font-family: Fira Sans;
     font-size: 16px;
     font-style: normal;
@@ -108,10 +107,16 @@ export const BtnTouch = styled.button`
             circle {
                 fill: var(--main-clr-green);
             }
-
             path {
                 stroke: var(--main-clr-dark-green);
             }
         }
     }
+`;
+
+export const OverflowHidden = styled.div`
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 `;
