@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.ttf');
+}
+
+:root {
+    --main-black-clr: #292d32;
+    --main-clr-dark-green: #173d33;
+    --main-clr-green: #97d28b;
+    --second-clr-light-green: #dcefd8;
+    --main-bg-clr: #f3f5fa;
+    --second-bg-clr: #eaedf1;
+    --white-clr: #fff;
+    --err-red-clr: #d28b8b;
+}
+
+  *,
+    ::after,
+    ::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+body {
+    font-family: 'Oswald';
+    background-color: var(--main-bg-clr);
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    background-color: var(--main-bg-clr);
+
+    /* mobile screen */
+    @media screen and (min-width: 360px) {
+        width: 360px;
+    }
+
+    /* tablet screen */
+    @media screen and (min-width: 768px) {
+        padding-right: 30px;
+        padding-left: 30px;
+        width: 768px;
+    }
+
+    /* desktop screen */
+    @media screen and (min-width: 1280px) {
+        margin-top: 24px;
+        width: 1240px;
+        padding: 0;
+    }
+}
+
+.no_scroll {
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}

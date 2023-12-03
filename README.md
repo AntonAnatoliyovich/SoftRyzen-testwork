@@ -1,1 +1,0 @@
-# SoftRyzen-testwork
